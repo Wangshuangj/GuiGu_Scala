@@ -21,8 +21,13 @@ object Demo01 {
     //在Scala中没有++和--，而使用+=1  和-=1
     var num = 10
     num += 1
-    num-=1
+    num -= 1
     println(num)
+
+    //替换三元运算符
+    var x = if (num == 11) 0 else 12
+    println(x)
+
   }
 
 }
